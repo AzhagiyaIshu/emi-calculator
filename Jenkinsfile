@@ -10,7 +10,7 @@ pipeline{
         echo'Building the emi calculator application'
       }
       }     
-        stage('Test')"{
+        stage('Test'){
            steps{
              echo'Tetsing the application'
            }
