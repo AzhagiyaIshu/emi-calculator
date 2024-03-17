@@ -9,6 +9,11 @@ pipeline{
         bat'mvn clean install'
         echo'Building the emi calculator application'
       }
+      }     
+        stage('Test')"{
+           steps{
+             echo'Tetsing the application'
+           }
     }
   }
 }
