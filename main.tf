@@ -10,8 +10,8 @@ terraform {
 }
 
 provider "aws" {
-  region  = "us-west-2"
-  profile = "Azhagiya_User1"
+  region  = "Global"
+  profile = "ishu.terraform"
 }
 
 resource "aws_instance" "example_server" {
